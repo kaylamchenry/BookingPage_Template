@@ -91,7 +91,7 @@ max-height: 500px;
   .slider_section .detail-box h1 {
     
     margin-bottom: 25px;
-    color: #1f101d;
+    color: #bbbbbb;
   }
   
   .slider_section .detail-box p {
@@ -159,6 +159,27 @@ max-height: 500px;
   }
 
   @media (min-width: 576px)
-.navbar-expand-sm .navbar-nav .dropdown-menu {
+
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: static !important;
-    float: none;}  
+    float: none;
+
+  }  
+  .flex-container {
+    display: flex;
+    height: 200px;
+    background-color: #16053d;
+    justify-content: center;
+    font-family: monsterrat;
+    color: #ffff;
+  }
+  
+  .flex-container > div {
+    background-color: #EAF0F6;
+    width: 90px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 60px;
+    flex: 1 1 200px;
+  }

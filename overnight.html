@@ -56,19 +56,62 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-4">Book an Overnight Stay</h1>
-                <p class="lead">a variety of cabins, cabanas, or pent suites to choose from.</p>
+                <p class="lead">a variety of cabins, cabanas, and pent suites to choose from.</p>
               </div>
             
             </div>
         </div>
       </section>
-     <div>
-        <h1>Price Quote Form</h1>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" required><br>
+      <body>
+        <div style="margin: auto; max-width: 715px; padding: 5px">
+        <br/>
+        <form method="post";>
+        <div style="max-width: 400px;">
+        </div>
 
+        <div style="padding-bottom: 18px;font-size : 24px;font font-family: Monsterrat;">Book Now</div>
+        <div style="display: flex; padding-bottom: 18px;max-width : 450px;">
+        <div style=" margin-left: 0; margin-right: 1%; width: 49%;">First name<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_2" name="data_2" style="max-width: 100%;" class="form-control"/>
+        </div>
 
+        <div style=" margin-left: 1%; margin-right: 0; width: 49%;">Last name<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_3" name="data_3" style="max-width: 100%;" class="form-control"/>
+        </div>
+        </div><div style="padding-bottom: 18px;">Phone<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_4" name="data_4" style="max-width : 450px;" class="form-control"/>
+        </div>
 
+        <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_5" name="data_5" style="max-width : 450px;" class="form-control"/>
+        </div>
 
+        <div style="padding-bottom: 18px;">Arrival date<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_6" name="data_6" style="max-width : 250px;" class="form-control"/>
+        </div>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
+        <div style="padding-bottom: 18px;">Departure date<span style="color: red;"> *</span><br/>
+        <input type="text" id="data_7" name="data_7" style="max-width : 250px;" class="form-control"/>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
+        <div style="padding-bottom: 18px;">Number of adults<span style="color: red;"> *</span><br/>
+        <input type="number" id="data_8" name="data_8" style="max-width : 250px;" class="form-control"/>
+    </div>
+
+    <div style="padding-bottom: 18px;">Number of children<br/>
+        <input type="number" id="data_9" name="data_9" style="max-width : 250px;" class="form-control"/>
+    </div>
+
+    <div style="padding-bottom: 18px;">Questions / Comments<br/>
+        <textarea id="data_10" false name="data_10" style="max-width : 450px;" rows="6" class="form-control"></textarea>
+    </div>
+
+    <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+    </form>
      </div>
